@@ -1,0 +1,40 @@
+html {
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container > h1 {
+    color: white;
+}
+
+#container > h1 > em {
+    background-color: white;
+    color: #121212;
+    font-style: normal;
+}
+
+#buttons > button {
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    outline: none;
+    background-color: #454545;
+    padding: 8px;
+    color: white;
+    margin: 0 8px;
+}
+
+#buttons > button:active {
+    outline: none;
+}
+
+#buttons > button:hover {
+    background-color: #252525;
+}
